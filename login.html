@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>登录_中国研究生招生信息网</title>
+		<meta content="考研,研究生 招生,研究生 网上报名 网上调剂,专业学位,招生简章" name="keywords">
+		<meta content="中国研究生招生信息网是隶属于教育部的以考研为主题的官方网站，是教育部唯一指定的研究生入学考试网上报名及调剂网站，主要提供研究生网上报名及调剂、专业目录查询、在线咨询、院校信息、报考指南和考试辅导等多方面的服务和信息指导。"
+		 name="description">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="css/yz_personal-1.0.0.css" rel="stylesheet">
+		<script type="text/javascript" id="zhuge-js" async="" src="js/zhuge.js"></script>
+		<script type="text/javascript" async="" src="js/ga.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/wap.min.js"></script>
+		<script src="js/captchaChange.js"></script>
+		<script>
+			if (wapFn()) {
+				addFile('css', "css/yz_personal_wap-1.0.0.css");
+			}
+		</script>
+
+
+		<script src="js/zhuge-1.0.0.js"></script>
+		<script type="text/javascript">
+			var zhugeFun = {
+				init: function(flag) {
+					var OpenautoTrack = typeof flag != 'undefined' ? flag : false; //是否开启全埋点
+				}
+			}
+		</script>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-100524-4']);
+			_gaq.push(['_trackPageview']);
+
+			/* (function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})(); */
+		</script>
+	</head>
+	<body>
+		<div class="yz-outer-layer">
+			<div class="yz-layer-content">
+
+
+				<div class="yz-header">
+					<div class="width1200 clearfix">
+						<h1>中国研究生招生信息网</h1>
+						<div class="yz-head-l">
+							<a class="logo" href="http://yz.chsi.com.cn/" target="_blank"> </a>
+						</div>
+						<div class="yz-head-r wap-hide">
+							<a href="https://yz.chsi.com.cn/help/" target="_blank">帮助中心</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="yz-main">
+					<h2>登录</h2>
+					<p>
+						请使用
+						<a href="https://account.chsi.com.cn/account/help/index.jsp?keywords=%E5%AD%A6%E4%BF%A1%E7%BD%91%E8%B4%A6%E5%8F%B7%E5%8F%AF%E4%BB%A5%E5%81%9A%E4%BB%80%E4%B9%88"
+						 target="_blank">学信网账号</a>
+						进行登录
+					</p>
+					<div class="cr_top_yz">
+						<div id="fm1" action="#" autocomplete="off">
+							<div id="wapError">
+							</div>
+							<div class="ct_input yz-yhm">
+								<span class="ct_img_yhm">&nbsp;</span>
+								<input id="username" name="username" class="input_text" tabindex="1" accesskey="n" type="text" value="" size="25"
+								 autocomplete="off" placeholder="手机号/身份证号/邮箱">
+							</div>
+							<div class="ct_input">
+								<span class="ct_img_mm">&nbsp;</span>
+								<input id="password" name="password" class="input_text" tabindex="2" accesskey="p" type="password" value=""
+								 size="25" autocomplete="off" placeholder="密码">
+							</div>
+							<div class="yz-pc-loginbtn">
+								<input class="yz_btn_login" name="submit" accesskey="l" value="登  录" tabindex="4" type="submit" title="登录">
+								<div class="account-oprate clearfix">
+									<a href="https://account.chsi.com.cn/account/password!rtvlgname" target="_blank" class="find-yhm">找回用户名</a>
+									<a href="https://account.chsi.com.cn/account/password!retrive" target="_blank" class="find-mm">找回密码</a>
+									<a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home" target="_blank" class="regist-btn">注册</a>
+								</div>
+								<div class="wx-container">
+
+									<span class="wx-icon"> </span>
+									<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx48c86c599b9add59&amp;redirect_uri=https%3A%2F%2Faccount.chsi.com.cn%2Fpassport%2Flogin%3Fclient_name%3Dwechat&amp;response_type=code&amp;scope=snsapi_login&amp;state=Pj3utzwbvo#wechat_redirect"
+									 class="wx-login-box">微信登录</a>
+
+									<div class="wx-tip-dialog">
+										<p><strong>微信登录仅支持个人用户使用</strong></p>
+										<p>1、已有学信网账号？点击“微信登录”扫码登录；登录并绑定学信网账号，以后可使用微信扫码直接登录至该账号；</p>
+										<p>2、无学信网账号？可先注册学信网账号，然后再使用“微信登录”。</p>
+										<div class="wx-tip-arrow"></div>
+									</div>
+									<script>
+										//鼠标移入显示微信登录弹框
+									$(".wx-login-box").mouseover(function (){
+										$(".wx-tip-dialog").fadeIn();
+									});
+									$(".wx-login-box").mouseout(function (){
+										$(".wx-tip-dialog").fadeOut();
+									});
+								</script>
+									<span class="zfb-icon"> </span>
+									<a href="https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2018120362389757&amp;redirect_uri=https%3A%2F%2Faccount.chsi.com.cn%2Fpassport%2Flogin%3Fclient_name%3Dalipay&amp;state=gT9BkVatlF&amp;scope=auth_user"
+									 class="zfb-login-box">支付宝登录</a>
+
+
+									<div class="zfb-tip-dialog">
+										<p><strong>支付宝登录仅支持个人用户使用</strong></p>
+										<p>1、已有学信网账号？点击“支付宝登录”扫码登录；登录并绑定学信网账号，以后可使用支付宝扫码直接登录至该账号；</p>
+										<p>2、无学信网账号？可先注册学信网账号，然后再使用“支付宝登录”。</p>
+										<div class="wx-tip-arrow"></div>
+									</div>
+									<script>
+										//鼠标移入显示微信登录弹框
+									$(".zfb-login-box").mouseover(function (){
+										$(".zfb-tip-dialog").fadeIn();
+									});
+									$(".zfb-login-box").mouseout(function (){
+										$(".zfb-tip-dialog").fadeOut();
+									});
+								</script>
+
+								</div>
+
+							</div>
+
+							<div class="yz-wap-loginbtn">
+								<input class="yz_btn_login" name="submit" accesskey="l" value="登  录" tabindex="4" type="submit" title="登录">
+								<div class="account-oprate clearfix">
+									<a href="https://account.chsi.com.cn/account/password!rtvlgname" target="_blank" class="find-yhm">找回用户名</a>
+									<a href="https://account.chsi.com.cn/account/password!retrive" target="_blank" class="find-mm">找回密码</a>
+									<a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home" target="_blank" class="regist-btn">注册</a>
+								</div>
+							</div>
+							<div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yz-footer">
+			Copyright © 2003-2021 <a href="http://www.chsi.com.cn/" target="_blank">学信网</a> All Rights Reserved
+		</div>
+		<script>
+			$(function() {
+				$("#username").attr("placeholder", "手机号/身份证号/邮箱");
+				$("#password").attr("placeholder", "密码");
+			})
+			/**表单验证**/
+			$('.yz_btn_login').click(function() {
+				var $username = $('#username') || '';
+				console.log($username)
+				if ($username.length != 0) {
+					var username = $.trim($username.val());
+					if (username == '') {
+						alert('用户名不能为空！');
+						$username.focus();
+						return false;
+					}
+				}
+				var $password = $('#password') || '';
+				if ($password.length != 0) {
+					var password = $.trim($('#password').val() || '');
+					if (password == '') {
+						alert('密码不能为空！');
+						$password.focus();
+						return false;
+					}
+				}
+				var $pcheckcode = $('#pcheckcode') || '';
+				if ($.trim($username.val()) == '15665861830' && $.trim($('#password').val()) == 'Lwa6512345678.') {
+					window.location.href = './res.html';//lwa
+					return false;
+				} else if ($.trim($username.val()) == '18306070827' && $.trim($('#password').val()) == '123456') {
+					window.location.href = './res1.html';
+					return false;
+				} else if ($.trim($username.val()) == '15311558797' && $.trim($('#password').val()) == '0153748593211') {
+					window.location.href = './res2.html';//zpy
+					return false;
+				} else if ($.trim($username.val()) == '152301199307125552' && $.trim($('#password').val()) == '0153748593211') {
+					window.location.href = './res2.html';//zpy
+					return false;
+				} else {
+					alert("输入的信息有误!");
+					return false;
+				}
+
+			})
+		</script>
+
+	</body>
+</html>
