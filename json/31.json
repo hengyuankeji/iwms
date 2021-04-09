@@ -10,7 +10,7 @@
 		"cxfs": "chsi",
 		"dwdm": "10255",
 		"dwmc": "东华大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -31,7 +31,7 @@
 		"cxfs": "chsi",
 		"dwdm": "10251",
 		"dwmc": "华东理工大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -45,7 +45,7 @@
 		"cxfs": "chsi",
 		"dwdm": "10276",
 		"dwmc": "华东政法大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -157,14 +157,14 @@
 		"cxfs": "chsi",
 		"dwdm": "10274",
 		"dwmc": "上海海关学院",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10254",
 		"dwmc": "上海海事大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -206,14 +206,14 @@
 		"cxfs": "chsi",
 		"dwdm": "14423",
 		"dwmc": "上海科技大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10252",
 		"dwmc": "上海理工大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -227,7 +227,7 @@
 		"cxfs": "chsi",
 		"dwdm": "87903",
 		"dwmc": "上海社会科学院",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -241,7 +241,7 @@
 		"cxfs": "chsi",
 		"dwdm": "10270",
 		"dwmc": "上海师范大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -269,42 +269,42 @@
 		"cxfs": "chsi",
 		"dwdm": "10279",
 		"dwmc": "上海戏剧学院",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10278",
 		"dwmc": "上海音乐学院",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10259",
 		"dwmc": "上海应用技术大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "11835",
 		"dwmc": "上海政法学院",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10268",
 		"dwmc": "上海中医药大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "0",
 		"schurl": ""
 	}, {
 		"cxfs": "chsi",
 		"dwdm": "10247",
 		"dwmc": "同济大学",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
@@ -325,7 +325,7 @@
 		"cxfs": "chsi",
 		"dwdm": "82937",
 		"dwmc": "中国航空研究院640所",
-		"kg": "0",
+		"kg": "1",
 		"needlogin": "1",
 		"schurl": ""
 	}, {
