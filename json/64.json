@@ -1,1 +1,32 @@
-{"dms":[{"cxfs": "chsi","dwdm":"11407","dwmc":"北方民族大学","kg":"1","needlogin":"","schurl":""},{"cxfs":"sch","dwdm":"10749","dwmc":"宁夏大学","kg":"0","needlogin":"","schurl":"https://www.nxjyks.cn/website/xxcx/Xxcx_scoreQueryOut.do"},{"cxfs": "chsi","dwdm":"10753","dwmc":"宁夏师范学院","kg":"1","needlogin":"","schurl":""},{"cxfs": "chsi","dwdm":"10752","dwmc":"宁夏医科大学","kg":"1","needlogin":"","schurl":""}],"rad":""}
+{
+	"dms": [{
+		"cxfs": "chsi",
+		"dwdm": "11407",
+		"dwmc": "北方民族大学",
+		"kg": "1",
+		"needlogin": "",
+		"schurl": ""
+	}, {
+		"cxfs": "sch",
+		"dwdm": "10749",
+		"dwmc": "宁夏大学",
+		"kg": "1",
+		"needlogin": "",
+		"schurl": "https://www.nxjyks.cn/website/xxcx/Xxcx_scoreQueryOut.do"
+	}, {
+		"cxfs": "chsi",
+		"dwdm": "10753",
+		"dwmc": "宁夏师范学院",
+		"kg": "1",
+		"needlogin": "",
+		"schurl": ""
+	}, {
+		"cxfs": "chsi",
+		"dwdm": "10752",
+		"dwmc": "宁夏医科大学",
+		"kg": "1",
+		"needlogin": "",
+		"schurl": ""
+	}],
+	"rad": ""
+}
