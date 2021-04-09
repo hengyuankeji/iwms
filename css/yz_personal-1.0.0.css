@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+/**
+ * @descript: 单点登录页面，yz_person页面样式处理
+ * @author  : jxd
+ * @date    : 20190814
+ */
+body,
+html {
+	height: 100%;
+	background: #f0f2f4;
+	font: 14px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+blockquote,
+body,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+:focus {
+	outline: 0
+}
+
+abbr,
+acronym {
+	border: 0;
+	font-variant: normal
+}
+
+button,
+input,
+optgroup,
+option,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit
+}
+
+code,
+kbd,
+samp,
+tt {
+	font-size: 100%
+}
+
+button,
+input,
+select,
+textarea {
+	resize: none
+}
+
+textarea:focus {
+	outline: 0
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+caption,
+td,
+th {
+	font-weight: 400;
+	text-align: left
+}
+
+caption,
+th {
+	text-align: left
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+	color: #666;
+	text-decoration: none
+}
+
+a:hover {
+	color: #3F94EF;
+	text-decoration: underline
+}
+
+h1 {
+	position: absolute;
+	left: 0;
+	top: -100px;
+	margin-top: -30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px
+}
+
+.width1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.yz-outer-layer {
+	min-height: 100%;
+	min-width: 1200px;
+	margin-bottom: -80px;
+}
+
+.yz-outer-layer .yz-layer-content {
+	padding-bottom: 80px;
+}
+
+.yz-header {
+	width: 100%;
+	height: 86px;
+	background: #fff;
+}
+
+.yz-header .yz-head-l {
+	float: left;
+	width: 370px;
+	height: 86px;
+}
+
+.yz-header .yz-head-r {
+	float: right;
+	height: 86px;
+	line-height: 86px;
+}
+
+.yz-header .yz-head-r a {
+	color: #1885E0;
+}
+
+.yz-header .logo {
+	display: block;
+	width: 370px;
+	height: 86px;
+	background-image: url("../images/logo.png");
+	background-image: -webkit-image-set(url("../images/logo.png") 1x, url("../images/logo2x.png") 2x);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+
+.yz-header .logo:hover {
+	text-decoration: none;
+}
+
+.yz-footer {
+	min-width: 100%;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 20px 0;
+	background: #fff;
+	color: #666;
+	text-align: center;
+	font-size: 14px;
+}
+
+.yz-main {
+	width: 588px;
+	margin: 50px auto 20px;
+	padding-top: 34px;
+	background: #fff;
+}
+
+.yz-main h2 {
+	color: #3c3c3c;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: 400;
+}
+
+.yz-main p {
+	color: #666;
+	line-height: 22px;
+	text-align: center;
+}
+
+.yz-main .cr_top_yz {
+	width: 358px;
+	margin: 16px auto 0;
+	padding-bottom: 24px;
+}
+
+.yz-main .ct_input {
+	margin-top: 20px;
+	position: relative;
+}
+
+.input_text {
+	width: 328px;
+	height: 24px;
+	padding: 8px 0 8px 28px;
+	color: #000;
+	border: 1px solid #dbdbdb;
+}
+
+.input_text:hover {
+	box-shadow: none;
+	border-color: #3F94EF;
+}
+
+.input_text_focus {
+	font-weight: 700;
+	color: #333;
+}
+
+.ct_input .password_txt {
+	position: absolute;
+	left: 30px;
+	top: 12px;
+	color: #AAA9A9;
+	font-size: 14px;
+}
+
+.ct_img_jym,
+.ct_img_mm,
+.ct_img_sjjym,
+.ct_img_yhm {
+	position: absolute;
+	top: 14px;
+	left: 8px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/icon_input.png") no-repeat 0 0;
+}
+
+.ct_img_yhm {
+	background-position: -16px 0;
+}
+
+.ct_img_mm {
+	background-position: 0 0;
+}
+
+.ct_img_sjjym {
+	background-position: -48px 0;
+}
+
+.ct_img_jym {
+	background-position: -32px 0;
+}
+
+.ct_img_jym,
+.ct_img_mm,
+.ct_img_sjjym,
+.ct_img_yhm {
+	left: 8px;
+	top: 13px;
+}
+
+/* 账号操作 */
+.account-oprate {
+	width: 358px;
+	margin-bottom: 20px;
+}
+
+.account-oprate .find-mm {
+	float: left;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.account-oprate .find-yhm {
+	float: left;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.account-oprate .regist-btn {
+	float: right;
+	font-size: 14px;
+}
+
+/* 微信登录 */
+.wx-container {
+	position: relative;
+	padding-top: 10px;
+	border-top: 1px solid #E6E6E6;
+}
+
+.wx-login-box {
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+}
+
+.zfb-login-box {
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+}
+
+.wx-login-box:hover {
+	text-decoration: underline;
+}
+
+.zfb-login-box:hover {
+	text-decoration: underline;
+}
+
+.wx-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	width: 24px;
+	height: 24px;
+	margin-right: 6px;
+	background: url('../images/wx-icon.png') no-repeat;
+}
+
+.zfb-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 6px 3px 20px;
+	width: 24px;
+	height: 24px;
+	background: url('../images/zfb-icon.png') no-repeat;
+}
+
+.wx-tip-dialog {
+	display: none;
+	width: 236px;
+	height: 160px;
+	position: absolute;
+	left: -10px;
+	top: -195px;
+	background: #FDFBE4;
+	border-radius: 4px;
+	padding: 15px 20px;
+	font-size: 14px;
+	box-shadow: 0 0 10px #999;
+}
+
+.wx-tip-dialog p {
+	text-align: left;
+	line-height: 22px;
+	text-indent: 0;
+}
+
+.wx-tip-dialog p:first-child {
+	margin-bottom: 4px;
+}
+
+.wx-tip-arrow {
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 10px;
+	bottom: -23px;
+	border: 12px solid transparent;
+	border-top: 12px solid #FDFBE4;
+}
+
+.zfb-tip-dialog {
+	display: none;
+	width: 236px;
+	height: 160px;
+	position: absolute;
+	left: 100px;
+	top: -195px;
+	background: #FDFBE4;
+	border-radius: 4px;
+	padding: 15px 20px;
+	font-size: 14px;
+	box-shadow: 0 0 10px #999;
+}
+
+.zfb-tip-dialog p {
+	text-align: left;
+	line-height: 22px;
+	text-indent: 0;
+}
+
+.zfb-tip-dialog p:first-child {
+	margin-bottom: 4px;
+}
+
+.yz-wap-loginbtn,
+.yz-wap-footer {
+	display: none;
+}
+
+.yz_btn_login {
+	width: 358px;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	border: 1px solid #1887E0;
+	background-color: #1887E0;
+	background-image: none;
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
+
+.yz_btn_login:hover {
+	background: #439ee6;
+	border-color: #439ee6;
+	cursor: pointer;
+}
+
+.errors {
+	font-size: 14px;
+	color: #d60909;
+}
